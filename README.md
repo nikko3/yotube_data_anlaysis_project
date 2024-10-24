@@ -53,19 +53,18 @@ Video-specific data such as title, publish date, view count, like count, comment
 ### How to Run
 
   1.Clone the repository.  
-  2.[Install the required Python packages:](pip install google-api-python-client pandas seaborn matplotlib python-dateutil isodate)
-  3.bash  
-    Copy code  
-  4.pip install google-api-python-client pandas seaborn matplotlib python-dateutil isodate  
-  5.Replace the api_key in the script with your own YouTube Data API key.  
-  6.Run the script to extract data and visualize results.  
+  2.Install the required Python packages  
+  3.'''bash
+  pip install google-api-python-client pandas seaborn matplotlib python-dateutil isodate  
+  4.Replace the api_key in the script with your own YouTube Data API key.  
+  5.Run the script to extract data and visualize results.  
   
 ### Results and Insights
 
   - Performance Patterns: The most and least viewed videos provide insight into content preferences in the data science community.
   - Engagement Trends: Higher view counts correlate with increased likes and comments.
   - Upload Behavior: Analyzing the frequency of uploads shows preferred days for posting new content.
-  - 
+
 ### Future Improvements
 
   - Include more YouTube channels for broader analysis.
