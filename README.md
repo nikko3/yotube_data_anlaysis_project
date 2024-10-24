@@ -55,7 +55,7 @@ Video-specific data such as title, publish date, view count, like count, comment
   1.Clone the repository.  
   2.Install the required Python packages  
   3.```bash
-pip install google-api-python-client pandas matplotlib seaborn python-dateutil isodate ```
+pip install google-api-python-client pandas matplotlib seaborn python-dateutil isodate ```  
   4.Replace the api_key in the script with your own YouTube Data API key.  
   5.Run the script to extract data and visualize results.  
   
